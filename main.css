@@ -1,0 +1,68 @@
+html{
+    text-align: center;
+
+}
+
+.body{
+    bottom: 0;
+}
+
+
+.icon {
+    width: 100px;
+}
+
+#osszeg{
+    right: 0;
+    size: 18px;
+    font-style: oblique;
+    margin-right: 10px;
+}
+
+table{
+ width: 80%;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.adatok{
+    margin-right: 250px;
+    margin-left: 250px;
+}
+td{
+    border: 1px solid black;
+}
+#button{
+    display: inline-block;
+    border: 3px solid lightskyblue;
+    background-color: lightblue;
+    margin: 10px;
+    padding: 10px 20px;
+    color: black;
+    font-size: 24px;
+    border-radius: 10px;
+    box-shadow: -2px 1px 5px lightskyblue;
+    width: 100px;
+    
+
+}
+.button:hover {
+    border: 3px solid lightseagreen;
+    background-color: mediumspringgreen;
+}
+
+.termekek{
+    width: 100%;
+}
+
+
+.termkep{
+    width: 200px;
+    display: inline-block
+}
+
+.item {
+   
+   margin: 20px;  
+   display: inline-block;
+}

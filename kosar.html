@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/main.css">
+    <title>Kosár</title>
+</head>
+
+<body>
+
+    <body>
+        <div class="menu">
+            <div id="button" <a href="/Index.html">Főoldal</a>
+                <a href="/Index.html"><img width="50px" src="/img/homeicon.png" alt="homeicon"></a>
+            </div>
+
+            <div id="button" <a href="/borok.html">Borok</a>
+                <a href="/borok.html"><img class="icon" src="/img/borok.jpg" alt="borok"></a>
+            </div>
+
+            <div id="button" <a href="/sorok.html">Sörök</a>
+                <a href="/sorok.html"><img class="icon" src="/img/sorok.jpg" alt="sorok"></a>
+            </div>
+
+            <div id="button" <a href="/egyeb.html">Egyéb</a>
+                <a href="/egyeb.html"><img class="icon" src="/img/csokik.jpg" alt="egyeb"></a>
+            </div>
+
+            <div id="button" <a href="/kosar.html">Kosár</a>
+                <a href="/kosar.html"><img width="50px" src="/img/ShoppingCart.png" alt="cart"></a>
+            </div>
+
+        </div>
+
+
+        <table>
+            <tr>
+                <td>Áru neve:</td>
+                <td>ára:</td>
+                <td>ft</td>
+                <td>db</td>
+
+            </tr>
+            <tr>
+
+                <td>pl irsai</td>
+                <td>990</td>
+                <td>ft</td>
+                <td><input type="number" min="1" max="10" name="db" id="darab"></td>
+            </tr>
+
+
+        </table>
+        
+
+
+
+        <fieldset class="adatok">
+            <legend>Megrendelö adatai:</legend>
+            <p><label for="name">név*:</label>
+                <input type="text" name="name" id="name" placeholder="Teljes Név" size="40" required>
+            </p>
+            <p><label for="cim">Cím*:</label>
+                <input type="text" name="cim" id="cim" placeholder="Elérhetöségi cím" size="40" required>
+            </p>
+            <P>
+                <label for="telszam">tel.szám:</label>
+                <input type="number" name="telszam" id="telszam" placeholder="06 00 000 0000" size="14">
+            </P>
+
+            <P><label for="megjegyzes">Megjegyzés:</label></P>
+            <p><textarea name="megjegyzes" id="megjegyzes" placeholder="Ide írhat..." cols="60" rows="5"></textarea></p>
+            <P>
+                <label for="szemelyes">Személyes átvétel</label>
+                <input type="radio" name="vasarlasforma" id="szemelyes" checked>
+
+            </P>
+            <p><label for="hazhoz">Házhoz szállitás</label>
+                <input type="radio" name="vasarlasforma" id="hazhoz"></p>
+
+
+
+
+            <P>* jellölt mezök kitöltése kötelezö</P>
+            <P>házhoz szállitás szöreg 300ft+</P> 
+            <p>szeged 500ft+</p> 
+            <P>végöszeg nem tartalmaza a kiszállitási dijat!</P>
+        </fieldset>
+
+        <p> <span id="osszeg">Végöszeg: ft</span>    <Button>megrendelés <img width="20px" src="/img/ShoppingCart.png" alt="shop"> </Button></p>
+    </body>
+
+</html>
